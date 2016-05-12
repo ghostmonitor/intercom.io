@@ -1,5 +1,5 @@
 {
-  "name": "intercom.io",
+  "name": "@ghostmonitor/intercom.io",
   "version": "1.2.1",
   "description": "An NodeJS API client for intercom.io",
   "keywords": [

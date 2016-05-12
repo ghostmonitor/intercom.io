@@ -1,0 +1,13 @@
+modules:
+  build:
+    dockerfile_path: Dockerfile.codeship
+    cache: true
+  links:
+    - mongo
+  environment:
+     - MONGOLAB_URI=mongodb://mongodb/ghostmonitor_test
+     - ENV=test
+     - APP_PORT=7000
+mongo:
+   image: mongo:3.0
+   command: --smallfiles
