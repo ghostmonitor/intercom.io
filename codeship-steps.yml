@@ -6,5 +6,5 @@
   command: sh -c "cd /modules && npm publish ."
   tag: master
 - service: modules
-  command: sh -c "npm access restricted @ghostmonitor/intercom.io
+  command: sh -c "npm access restricted @ghostmonitor/intercom.io"
   tag: master
