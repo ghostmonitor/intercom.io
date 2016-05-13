@@ -12,7 +12,7 @@
   "author": "Mike McDonald <mcdonald@firebase.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tarunc/intercom.io.git"
+    "url": "git://github.com/ghostmonitor/intercom.io.git"
   },
   "homepage": "https://github.com/tarunc/intercom.io",
   "license": "MIT",
